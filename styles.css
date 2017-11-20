@@ -1,4 +1,75 @@
-h1 {
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
 
-    color: red;
+/* Header */
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+.name {
+    font-size: 1.25em;
+    padding-top: 5.6em;
+}
+
+.bio {
+    padding-top: 8.7em;
+    margin-bottom: -.45em;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 37px;
+}
+
+.position-fixed {
+    padding-top: 28.4em;
+    padding-left: 60em;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    line-height: 31px;
+}
+
+li {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.email:hover:before {
+    content:'';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: grey;
+}
+
+/* Projects and Education */
+.list {
+    margin-top: 3.2em;
+}
+
+.list-item-title {
+    font-size: 1.25em;
+}
+
+dd, .list-item-p {
+    font-size: 1em;
+    margin-top: .25em;
+    margin-bottom: 2em;   
+}
+
+.list-link {
+    color: white; 
+}
+
+.title {
+    font-size: 1.3em;
+    margin-bottom: 3.2em;
 }
