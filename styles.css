@@ -12,6 +12,7 @@ body {
 .name {
     font-size: 1.25em;
     padding-top: 5.6em;
+    letter-spacing: 0.1em;
 }
 
 .bio {
@@ -23,8 +24,8 @@ body {
 }
 
 .position-fixed {
-    padding-top: 28.4em;
-    padding-left: 60em;
+    padding-top: 27.7em;
+    padding-left: 77em;
 }
 
 ul {
@@ -72,4 +73,5 @@ dd, .list-item-p {
 .title {
     font-size: 1.3em;
     margin-bottom: 3.2em;
+    letter-spacing: .01em;
 }
