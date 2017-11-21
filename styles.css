@@ -2,13 +2,25 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
     background-color: black;
     color: white;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+
+/* Containers */
+.edu {
+    display: block;
 }
 
 /* Header */
 .main {
+    display: block;
     height: 100vh;
     width: 100vw;
 }
+
 .name {
     font-size: 1.25em;
     padding-top: 5.6em;
@@ -39,16 +51,8 @@ li {
     font-size: 1.1em;
 }
 
-.email:hover:before {
-    content:'';
-    position: absolute;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background-color: grey;
+a {
+    color: white;
 }
 
 /* Projects and Education */
